@@ -1,0 +1,20 @@
+﻿@model AppTerceira.Models.Fisica
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <h2> @Model.Id</h2>
+    <h2> @Model.Nome</h2>
+    <h2> @Model.Sexo</h2>
+    <h2> @Model.CPF</h2>
+    <h2> @Model.RG - @Model.Dig_RG </h2>
+
+    <h2>Exemplo</h2>
+
+    <h3>@ViewData["Id"]</h3>
+    <h3>@ViewData["Nome"]</h3>
+    <h3>@ViewData["CPF"]</h3>
+    <h3>@ViewData["RG"]-@ViewData["Dig_RG"]</h3>
+
+</main>
